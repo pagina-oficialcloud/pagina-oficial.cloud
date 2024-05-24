@@ -1,1 +1,0 @@
-function toggleResponse(clickedElement,group){const groupElements=document.querySelectorAll(`.${group}`);groupElements.forEach(element=>{element.classList.remove('active');});clickedElement.classList.add('active');}
